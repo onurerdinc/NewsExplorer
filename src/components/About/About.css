@@ -1,0 +1,35 @@
+.about {
+  background-color: #ffffff;
+  display: flex;
+}
+
+.about__avatar {
+  width: 464px;
+  height: 464px;
+  padding: 80px;
+}
+
+.about__content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin: 0 auto;
+}
+
+.about__title {
+  margin-top: 131px;
+  width: 600px;
+  height: 46px;
+  font-family: Roboto Slab;
+  font-size: 40px;
+  line-height: 46px;
+}
+
+.about__text {
+  width: 600px;
+  height: 120px;
+  font-family: Roboto Slab;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}

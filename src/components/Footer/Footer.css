@@ -1,0 +1,40 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.footer__left p {
+  margin: 0;
+  color: #b6bcbf;
+  font-size: 14px;
+  width: 433px;
+  height: 22px;
+  padding-left: 104px;
+}
+
+.footer__right {
+  display: flex;
+  align-items: center;
+}
+
+.footer__buttons {
+  height: 24px;
+  width: 163px;
+  display: flex;
+  align-items: center;
+}
+
+.footer__link {
+  text-decoration: none;
+  margin-left: 20px;
+  color: black;
+  font-size: 14px;
+}
+
+.footer__icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 106px;
+}
