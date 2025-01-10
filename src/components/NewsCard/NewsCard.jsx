@@ -21,7 +21,7 @@ function NewsCard({ article }) {
           rel="noopener noreferrer"
           className="news-card__link"
         >
-          Read more
+          Show more
         </a>
       </div>
     </div>

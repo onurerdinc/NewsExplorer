@@ -1,6 +1,7 @@
-import NewsCard from "./NewsCard";
+import NewsCard from "../NewsCard/NewsCard";
 
-function NewsCardList({ articles }) {
+function NewsCardsList({ articles }) {
+  console.log("Articles:", articles);
   return (
     <section className="news-card-list">
       {articles.length ? (
@@ -14,4 +15,4 @@ function NewsCardList({ articles }) {
   );
 }
 
-export default NewsCardList;
+export default NewsCardsList;
